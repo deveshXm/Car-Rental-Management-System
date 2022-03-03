@@ -1,0 +1,24 @@
+.footer{
+    min-height: 1.5vw;
+    background-color: black;
+    display: flex;
+    align-items: center;     
+}
+
+.footer p{
+    padding:10vh;
+    color:white;      
+}
+
+.social_links {
+    margin-left:auto;
+    margin-right: 10vh;
+}
+
+.social_links a{
+    padding: 1vw;
+}
+
+.fa-brands{
+    color:white;
+}
