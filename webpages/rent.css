@@ -9,6 +9,13 @@
     min-height: 100vh;   
 }
 
+.header h3{
+    padding-top:90px;
+    padding-left:40px;
+    font-size: 50px;
+    color:#ee9b00;
+}
+
 nav{
     display:flex;
     justify-content:space-between;
@@ -87,12 +94,7 @@ nav h4 {
     color:white;
 }
 
-.header h3{
-    padding-top:90px;
-    padding-left:40px;
-    font-size: 50px;
-    color:#ca6702;
-}
+
 
 .car_types{
     display:flex;
@@ -112,7 +114,16 @@ nav h4 {
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     font-weight: bold;
     color: aliceblue;
+    transition: 1s ease;
     
+}
+
+.car_types #label1{
+    border-top-left-radius: 10px;
+}
+
+.car_types #label3{
+    border-top-right-radius: 10px;
 }
 
 .car_types label:hover{
@@ -122,7 +133,7 @@ nav h4 {
 }
 
 .car_types .tab{
-    width:100%;
+    width:1260px;
     padding: 20px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     order : 1;
@@ -146,6 +157,7 @@ nav h4 {
     float:left;
     height: 310px;
     width: 400px;
+    border-radius: 10px;
     text-align: center;
     text-transform: capitalize;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
