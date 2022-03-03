@@ -57,20 +57,28 @@ div input{
 }
 
 div button{
+    
     margin-top: 30px;
-    height:50px;
-    width:150px;
-    border-radius: 8px;
-    background-color: white;
-    font-size: 20px;
-    border-color: #fb8500;
-    border-width: 5px;
+    padding:10px 50px;
+    background-color: rgba(0,0,0,0.2);
+    border-width: 2px;
+    border-color: #ee9b00;
+    border-style: solid;
+    font-weight: bold;
+    color:#fff;
+    box-shadow: inset 0 0 0 0 #ee9b00;
+    text-decoration: none;
+    transition: ease-out 0.5s;
+
 }
 
+
+
 div button:hover{
-    background-color:#fb8500;
-    cursor:pointer;
-    transition: .3s ease;
+    box-shadow: inset 200px 0 0 0 #ee9b00;
+    position:relative;
+    color:white;   
+    cursor: pointer;     
 }
 
 .footer{
