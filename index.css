@@ -73,6 +73,7 @@ nav{
     display: flex;
     justify-content: space-between;
     width: 90%;
+    padding-bottom: 5vh;
 }
 
 .class{
