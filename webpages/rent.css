@@ -9,12 +9,6 @@
     min-height: 100vh;   
 }
 
-.header h3{
-    padding-top:90px;
-    padding-left:40px;
-    font-size: 50px;
-    color:#ee9b00;
-}
 
 nav{
     display:flex;
@@ -68,33 +62,12 @@ nav h4 {
     font-weight: bold;
 }
 
-.footer{
-    min-height: 15vh;
-    background-color: black;
-    display: flex;
-    align-items: center; 
+.header h3{
+    padding-top:90px;
+    padding-left:40px;
+    font-size: 50px;
+    color:#ee9b00;
 }
-
-.footer p{
-    padding:10vh;
-    color:white;
-    ;      
-}
-
-.social_links {
-    margin-left:auto;
-    margin-right: 10vh;
-}
-
-.social_links a{
-    padding: 10px;
-}
-
-.fa-brands{
-    color:white;
-}
-
-
 
 .car_types{
     display:flex;
@@ -204,3 +177,33 @@ nav h4 {
     background-color: #fff;
     color: black;
 }
+
+
+.footer{
+    min-height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+}
+
+.footer p{
+    padding:10vh;
+    color:white;
+    ;      
+}
+
+.social_links {
+    margin-left:auto;
+    margin-right: 10vh;
+}
+
+.social_links a{
+    padding: 10px;
+}
+
+.fa-brands{
+    color:white;
+}
+
+
+
