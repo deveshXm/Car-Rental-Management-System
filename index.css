@@ -64,9 +64,10 @@ nav{
 }
 
 .content{
+
     text-align: center;
     width:fit-content;
-    padding-top:7vw;
+    padding-top:8vw;
     padding-left:4vw;
     color: #fff;
     display: flex;
