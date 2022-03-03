@@ -1,0 +1,194 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.body{
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/bg-rent.jpg) center/cover fixed no-repeat;
+    min-height: 100vh;   
+}
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #001219;
+    font-family: 'Open Sans', sans-serif;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    color: white;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:20px;
+}
+
+nav h4 {
+    padding-left: 100px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    width:30%;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.nav-links a:hover{
+    color: #ee9b00;
+}
+
+.icon a{
+    padding-right: 50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
+.footer{
+    min-height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+}
+
+.footer p{
+    padding:10vh;
+    color:white;
+    ;      
+}
+
+.social_links {
+    margin-left:auto;
+    margin-right: 10vh;
+}
+
+.social_links a{
+    padding: 10px;
+}
+
+.fa-brands{
+    color:white;
+}
+
+.header h3{
+    padding-top:90px;
+    padding-left:40px;
+    font-size: 50px;
+    color:#ca6702;
+}
+
+.car_types{
+    display:flex;
+    flex-wrap: wrap;
+    max-width:1400px;
+    margin:20px;
+    padding:25px;
+
+}
+
+.car_types input{
+    display:none;
+}
+
+.car_types label{
+    padding: 20px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    font-weight: bold;
+    color: aliceblue;
+    
+}
+
+.car_types label:hover{
+    color: #ee9b00;
+    transition: .3s ease ;
+    cursor: pointer;
+}
+
+.car_types .tab{
+    width:100%;
+    padding: 20px;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    order : 1;
+    height:330px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    display:none;
+}
+
+.car_types img{
+    height:130px;
+    width:230px;
+    position: relative;
+}
+
+.car_types .tab .img1{
+    margin:10px;
+    font-size: 25px;
+    color:#fff;
+    float:left;
+    height: 310px;
+    width: 400px;
+    text-align: center;
+    text-transform: capitalize;
+    background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+
+.car_types .tab .img1 p{
+    padding:30px;
+    font-weight: bolder;
+}
+
+.car_types .tab .img1 p:hover{
+    color:#ee9b00;
+    transition: .3s ease;
+}
+
+.car_types .tab .img1 button{
+    margin-top: 25px;
+    padding: 10px 20px;
+    font-weight: bolder;
+    border-radius: 8px;
+    border-width: 4px;
+    border-style: solid;
+    border-color: #ca6702;
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+    color:white;
+}
+
+.car_types .tab .img1 button:hover{
+    transition: .3s ease;
+    background: #ca6702;
+    cursor:pointer;
+}
+
+.car_types .tab .img1 img{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.car_types input[type = 'radio']:checked + label + .tab{
+    display:block;
+}
+
+.car_types input[type = "radio"]:checked + label{
+    background-color: #fff;
+    color: black;
+}
