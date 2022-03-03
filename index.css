@@ -26,11 +26,11 @@ nav{
     color: white;
     text-transform:uppercase;
     letter-spacing:5px;
-    font-size:20px;
+    font-size:3vh;
 }
 
-h4 {
-    padding-left: 100px;
+.logo h4 {
+    padding-left: 10vw;
 }
 
 .nav-links{
@@ -48,7 +48,7 @@ h4 {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight:bold;
-    font-size:14px;
+    font-size:1vw;
 }
 
 .nav-links a:hover{
@@ -65,76 +65,75 @@ h4 {
 
 .content{
     text-align: center;
-    width:600px;
-    padding-top:100px;
-    padding-left:40px;
+    width:fit-content;
+    padding-top:7vw;
+    padding-left:4vw;
     color: #fff;
-    position:relative;
-    
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
 }
 
-.content h2{
-    font-size: 60px;
+.class{
+    height:fit-content;
+    width: fit-content;
 }
 
-.content span{
+.class1 h2{
+    font-size: 4vw;
+}
+
+.class1 span{
     color:#ee9b00;
-    font-size: 60px;
+    font-size: 4vw;
 }
 
-.content p{
-    font-size: 40px;
-    font-weight: 10px;
-
+.class1 p{
+    font-size: 3vw;
 }
 
 .content span2{
     color:#ee9b00;
-    font-size: 40px;
+    font-size: 4vw;
 }
 
-.destination{
-    padding-top: 20px;
-    height: auto;
-    width: 600px;
+.destination input{
+    margin-top: 2vw;
+    width: 20vw;
+    padding: 1vh;
+    border-radius: .5vw;
 }
-
-.dest{
-    text-align: center;
-    border-radius:8px;
-    height: 40px;
-    width:250px;
-}
-
 
 
 .form{
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: auto;
     background: linear-gradient(rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%);
-    position:absolute;
-    top: 100px;
-    left:140vh;
-    border-radius:10px;
+    top: 10vw;
+    border-radius:0.5vw;
 }
 
 .form h2{
-    padding-top: 30px;
+    font-size: 4vw;
+    padding-top: 1vw;
     color:#ee9b00
 }
 
 .form input{
-    width:300px;
-    height:30px;
-    margin-top: 20px;
+    width:23vw;
+    height:2vw;
+    margin-top: 1vw;
+    border-radius: 5px;
 }
 
 .form p{
-    font-size: 20px;
-    padding-top: 30px;
+    font-size: 1.5vw;
+    padding-top: 2vw;
 }
 
 .form a{
+    margin:0px;
+    padding:0px;
     text-decoration: none;
     color:#fff
 }
@@ -143,10 +142,10 @@ h4 {
     color: #0a9396;
 }
 .btn{
-    margin-top: 20px;
+    margin-top: 2vw;
 }
 .footer{
-    min-height: 15vh;
+    min-height: 1.5vw;
     background-color: black;
     display: flex;
     align-items: center;     
@@ -163,7 +162,7 @@ h4 {
 }
 
 .social_links a{
-    padding: 10px;
+    padding: 1vw;
 }
 
 .fa-brands{
@@ -173,9 +172,9 @@ h4 {
 
 .btn a button{
     
-    padding:6px 50px;
+    padding:0.6vw 3vw;
     background-color: rgba(0,0,0,0.2);
-    border-width: 2px;
+    border-width: 0.2vw;
     border-color: #ee9b00;
     border-style: solid;
     font-weight: bold;
