@@ -9,6 +9,59 @@
     min-height: 100vh;   
 }
 
+
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+    min-height: 10vh;
+    background-color: #001219;
+    font-family: 'Open Sans', sans-serif;
+    position:fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.logo{
+    color: white;
+    text-transform:uppercase;
+    letter-spacing:5px;
+    font-size:20px;
+}
+
+nav h4 {
+    padding-left: 100px;
+}
+
+.nav-links{
+    display: flex;
+    justify-content:space-between;
+    width:30%;
+}
+
+.nav-links li{
+    list-style:none;
+}
+
+.nav-links a{
+    color: white;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight:bold;
+    font-size:14px;
+}
+
+.nav-links a:hover{
+    color: #ee9b00;
+}
+
+.icon a{
+    padding-right: 50px;
+    text-decoration: none;
+    color:white;
+    font-weight: bold;
+}
+
 .header h3{
     padding-top:90px;
     padding-left:40px;
@@ -19,9 +72,9 @@
 .car_types{
     display:flex;
     flex-wrap: wrap;
-    max-width:140vw;
-    margin-bottom:4vw;
-    padding:2.5vw;
+    max-width:1400px;
+    margin:20px;
+    padding:25px;
 
 }
 
@@ -30,7 +83,7 @@
 }
 
 .car_types label{
-    padding: 1.5vw;
+    padding: 20px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     font-weight: bold;
     color: aliceblue;
@@ -53,39 +106,38 @@
 }
 
 .car_types .tab{
-    text-align: center;
-    padding: 2vw;
+    width:1260px;
+    padding: 20px;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
     order : 1;
-    height:30vw;
+    height:330px;
     border-top-right-radius: 10px;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
     display:none;
-    width: fit-content;
 }
 
 .car_types img{
-    height:9vw;
-    width:16vw;    
+    height:130px;
+    width:230px;
+    position: relative;
 }
 
 .car_types .tab .img1{
+    margin:10px;
     font-size: 25px;
     color:#fff;
     float:left;
-    height: 30vw;
-    width: 25vw;
+    height: 310px;
+    width: 400px;
     border-radius: 10px;
     text-align: center;
     text-transform: capitalize;
     background:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    margin-right: 3vw;
 }
 
 .car_types .tab .img1 p{
-    text-align: left;
-    padding:1vw;
+    padding:30px;
     font-weight: bolder;
 }
 
@@ -128,6 +180,33 @@
 .car_types input[type = "radio"]:checked + label{
     background-color: #fff;
     color: black;
+}
+
+
+.footer{
+    min-height: 15vh;
+    background-color: black;
+    display: flex;
+    align-items: center; 
+}
+
+.footer p{
+    padding:10vh;
+    color:white;
+    ;      
+}
+
+.social_links {
+    margin-left:auto;
+    margin-right: 10vh;
+}
+
+.social_links a{
+    padding: 10px;
+}
+
+.fa-brands{
+    color:white;
 }
 
 
