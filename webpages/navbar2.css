@@ -49,29 +49,3 @@ nav h4 {
     color:white;
     font-weight: bold;
 }
-
-.footer{
-    min-height: 15vh;
-    background-color: black;
-    display: flex;
-    align-items: center; 
-}
-
-.footer p{
-    padding:10vh;
-    color:white;
-    ;      
-}
-
-.social_links {
-    margin-left:auto;
-    margin-right: 10vh;
-}
-
-.social_links a{
-    padding: 10px;
-}
-
-.fa-brands{
-    color:white;
-}

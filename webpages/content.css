@@ -9,8 +9,6 @@
     min-height: 100vh;   
 }
 
-
-
 .body h2{
     padding-top: 90px;
     padding-left:70px;
@@ -21,18 +19,22 @@
     color: white;
 }
 
+.form{
+    display: flex;    
+}
+
 #content {
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    height: 400px;
-    width: 400px;
+    height: 30vw;
+    width: 30vw;
     margin:50px;
-    padding-top:20px;
-    border-radius: 8px;
-    float:left;
+    padding-top:1vw;
+    border-radius: 0.8vw;
+    display: block;
+    text-align: center;
 }
 
 #content h1{
-    text-align: center;
     color: #fb8500;
     padding-bottom: 10px;
 }
@@ -44,23 +46,20 @@
 }
 
 #content input{
-    width:340px;
-    height:20px;
-    margin-left:30px;
+    width:22vw;
+    height:1.5vw;
     text-align: left;
     border-radius: 5px;
 }
 
-.btn{
-    text-align: center;
-    margin-top:30px;
+.btn{margin-top:30px;
 }
 
 .btn a button{
     
-    padding:10px 50px;
+    padding:0.6vw 3vw;
     background-color: rgba(0,0,0,0.2);
-    border-width: 2px;
+    border-width: 0.2vw;
     border-color: #ee9b00;
     border-style: solid;
     font-weight: bold;
@@ -71,6 +70,8 @@
 
 }
 
+
+
 .btn a button:hover{
     box-shadow: inset 200px 0 0 0 #ee9b00;
     position:relative;
@@ -80,16 +81,16 @@
 
 #content2{
     background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5));
-    height: 400px;
-    width: 800px;
-    margin:50px;
-    padding-top:20px;
+    height: 30vw;
+    width: 70vw;
+    margin:3.5vw;
+    padding-top:1vw;
     border-radius: 8px;
     float:left;
 } 
 
 #content2 h3{    
-    font-size: 30px;
+    font-size: 2vw;
     font-weight: bold;
     text-align: center;
     color: #fb8500;
