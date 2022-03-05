@@ -12,6 +12,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wdth,wght@97.9,469&display=swap" rel="stylesheet">
     <script src="https://kit.fontawesome.com/9382408a1d.js" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZzimummIkNt3EhkhYgyiQMn9u9ZiALZQ&libraries=places"></script>
     <title>Car Anywhere</title>
     <style>
         input[type="search"]::placeholder {
@@ -42,39 +44,42 @@
             <li><a href="#">Contact Us</a></li>
         </ul>
         <div class="icon">
-            <a href="https://deveshxm.github.io/Car-Rental-Management-System/webpages/admin.html"><i class="fa-solid fa-user"></i></a>
+            <a href="https://deveshxm.github.io/Car-Rental-Management-System/webpages/admin.html"><i
+                    class="fa-solid fa-user"></i></a>
         </div>
     </nav>
     <div class="header">
-        
+
         <div class="content">
             <div class="class1">
                 <h2>Rent Cars at <br> <span>Reasonable</span> Rates</h2>
-            <p><br>Plan your next vacation <span2>NOW!</span2>
-            </p>
-            <div class="destination">
-                <input type="search" class="dest" placeholder="Enter Destination">
+                <p><br>Plan your next vacation <span2>NOW!</span2>
+                </p>
+                <div class="destination">
+                    <input type="text" id="location">
+                </div>
+                <div class="btn">
+                    <a
+                        href="https://deveshxm.github.io/Car-Rental-Management-System/webpages/content.html"><button>Go</button></a>
+                </div>
             </div>
-            <div class="btn">
-                <a href = "https://deveshxm.github.io/Car-Rental-Management-System/webpages/content.html"><button>Go</button></a>
-            </div>
-            </div>  
-                        
+
             <div class="form">
                 <h2>Login Here</h2>
-                <input type = "email" placeholder = "Enter Email Here">
+                <input type="email" placeholder="Enter Email Here">
                 <br>
-                <input type = "password" name = "" placeholder = "Enter Password Here">
+                <input type="password" name="" placeholder="Enter Password Here">
                 <br>
                 <div class="btn">
-                    <a href = "https://deveshxm.github.io/Car-Rental-Management-System/webpages/content.html"><button>Login</button></a>
+                    <a
+                        href="https://deveshxm.github.io/Car-Rental-Management-System/webpages/content.html"><button>Login</button></a>
                 </div>
-    
-                <p class = "link">Don't have an account?</p><br>
-                <a href = "https://deveshxm.github.io/Car-Rental-Management-System/webpages/signup.html">Sign up here</a>
+
+                <p class="link">Don't have an account?</p><br>
+                <a href="https://deveshxm.github.io/Car-Rental-Management-System/webpages/signup.html">Sign up here</a>
             </div>
         </div>
-        
+
 
     </div>
     <div class="footer">
@@ -85,6 +90,20 @@
             <a href="#"><i class="fa-brands fa-facebook"></i></a>
         </div>
     </div>
+
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            var autocomplete;
+            var id = 'location';
+            autocomplete = new google.maps.places.Autocomplete((document.getElementById(id)), {
+                types: ['geocode'],
+                /*componentRestrictions: {
+                 country: "USA"
+                }*/
+            });
+        });
+    </script>
 
 </body>
 
