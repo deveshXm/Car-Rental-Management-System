@@ -34,10 +34,10 @@
 .content
 {
     display: flex;
-    height: 300px;
-    background-color:  #dde3df;
-    margin: 50px 50px;
-    padding: 10px 0px;
+    height: 48vh;
+    background-color: #dde3df;
+    margin: 8vh 4vw;
+    padding: 3vh 0vw;
 }
 .outer-1
 {
