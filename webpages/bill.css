@@ -16,6 +16,7 @@
     justify-content: center;
     align-items: center;
     overflow: hidden;
+    padding-top: 6vh;
     /* margin: 30px auto; */
     /* border: 2px solid black; */
 }
@@ -36,7 +37,7 @@
     display: flex;
     height: 48vh;
     background-color: #dde3df;
-    margin: 8vh 4vw;
+    margin: 4vh 4vw;
     padding: 3vh 0vw;
 }
 .outer-1
