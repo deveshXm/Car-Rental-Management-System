@@ -1,6 +1,6 @@
 nav{
     display:flex;
-    justify-content:space-between;
+    justify-content:space-around;
     align-items: center;
     min-height: 10vh;
     background-color: #001219;
@@ -14,17 +14,13 @@ nav{
     color: white;
     text-transform:uppercase;
     letter-spacing:5px;
-    font-size:20px;
-}
-
-nav h4 {
-    padding-left: 100px;
+    font-size:25px;
 }
 
 .nav-links{
     display: flex;
     justify-content:space-between;
-    width:30%;
+    width:35%;
 }
 
 .nav-links li{
@@ -36,7 +32,7 @@ nav h4 {
     text-decoration: none;
     letter-spacing: 3px;
     font-weight:bold;
-    font-size:14px;
+    font-size:15px;
 }
 
 .nav-links a:hover{
@@ -44,7 +40,6 @@ nav h4 {
 }
 
 .icon a{
-    padding-right: 50px;
     text-decoration: none;
     color:white;
     font-weight: bold;
