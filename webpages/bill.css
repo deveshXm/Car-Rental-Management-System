@@ -21,12 +21,9 @@
 }
 .option-1
 {
-    /* border: 2px solid black; */
-    width: 120px;
     display: inline-block;
-    /* margin: 7px; */
-    padding: 3px;
-    /* border-radius: 12px; */
+    margin: 1vh;
+    border-radius: 2vh;
 }
 .form1
 {
@@ -37,10 +34,10 @@
 .content
 {
     display: flex;
-    height: 300px;
-    background-color:  #dde3df;
-    margin: 50px 50px;
-    padding: 10px 0px;
+    height: 48vh;
+    background-color: #dde3df;
+    margin: 8vh 4vw;
+    padding: 3vh 0vw;
 }
 .outer-1
 {
@@ -49,8 +46,8 @@
     border-top-color: rgb(12, 12, 12);
     border-top-style: solid;
     border-top-width: 0px;
-    width: 58.5vw;
-    height: 80vh;
+    width: 60vw;
+    height: 43vh;
     justify-content: center;
     /* align-items: center; */
     margin: 1vh 1vw;
@@ -69,23 +66,23 @@
 {
     display: flex;
     border: 2px solid #ee9b00;
-    padding: 0vh 1.7vw;
+    padding: 0vh 1.68vw;
     width: 29.5vw;
-    height: 57vh;
+    height: 28.2vh;
     justify-content: center;
     align-items: center;
-    margin: 15vh 1vw;
+    margin: 10vh 1vw;
     padding-bottom: 3vh;
 }
 .head-11
 {
     border: 3px solid rgb(27, 27, 27);
-    background: linear-gradient(rgba(148,210,189,0.5),rgba(148,210,189, 0.5));
+    background: linear-gradient(rgba(148, 210, 189, 0.5), rgba(148, 210, 189, 0.5));
     margin: 0vh auto;
-    padding: 2vh 0.65vw;
-    width: 57.1vw;
-    height: 12vh;
-    font-size: 2vw;
+    padding: 1vh 0.65vw;
+    width: 58.5vw;
+    height: 6vh;
+    font-size: 1.5vw;
     display: flex;
     align-items: center;
 }
@@ -94,18 +91,18 @@
 {
     text-decoration: none;
     list-style: none;
-    margin: 0vw 0vh 0vh 25vw;
+    margin: 0vw 0vh 0vh 31vw;
     border: 1px solid black;
-    border-radius: 1vw;
+    border-radius: 1vh;
     background-color: #6abd83;
 }
 .head-11 ul li a
 {
     color: rgb(51, 49, 49);
     display: block;
-    padding: 1.5vh 1vw;
+    padding: 1vh 1.5vw;
     text-decoration: none;
-    border-radius: 2vh;
+    border-radius: 1vh;
 }
 .head-11 ul li a:hover
 {
@@ -120,8 +117,8 @@
     /*width: 100px;
     display: inline-block;
     padding: 10px;*/
-    margin: 2vh;
-    border-radius: 4vh;
+    margin: 1vh;
+    border-radius: 2vh;
 }
 .butt-1
 {
@@ -145,7 +142,7 @@
 {
     width: 8vw;
     margin: 1vh;
-    padding: 2.5vh;
+    padding: 1vh;
     padding-left: 2vw;
 }
 .td2
@@ -154,7 +151,7 @@
     padding-left: 4vh;
 }
 .btn a button {
-    padding: 0.8vw 3vw;
+    padding: 0.5vw 2.5vw;
     background-color: rgb(6 6 6 / 30%);
     border-width: 0.2vw;
     border-color: #ee9b00;
@@ -179,7 +176,7 @@
 .billi
 {
     display:flex;
-    margin-top: 10vh;
+    margin-top: 0vh;
     width: 100%;
     font-size: 30px;
     background-color: #ee9b00;
