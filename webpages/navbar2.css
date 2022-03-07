@@ -5,7 +5,7 @@ nav{
     min-height: 10vh;
     background-color: #001219;
     font-family: 'Open Sans', sans-serif;
-    position:fixed;
+    position:sticky;
     width: 100%;
     z-index: 1;
 }
