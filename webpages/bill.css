@@ -1,66 +1,11 @@
 *{
     margin: 0px;
     padding: 0px;
-    font-family: 'Hubballi', cursive;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 600;
 }
-#logo {
-    margin: 0px 20px;
-    height: 60px;
-    color: white;
-    display: flex;
-    align-items: center;
-    font-size: 27px;
-}
-.icon {
-    margin: 0px -15px 0px 144px;
-    font-size: 23px;
-}
-.icon a {
-    padding-right: 50px;
-    text-decoration: none;
-    color: white;
-    font-weight: bold;
-}
-#navbar-1
-{
-    display: flex;
-    align-items: center;
-    position: sticky;
-    top: 0px;
-}
-#navbar-1::before
-{
-    content: "";
-    background-color: rgb(8, 8, 8);
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    z-index: -1;
-    opacity: 1;
-}
-#navbar-1 ul {
-    display: flex;
-    margin: 0px 254px;
-}
-#navbar-1 ul li
-{
-    list-style:none;
-    font-size: 1.3rem;
-}
-#navbar-1 ul li a
-{
-    color: white;
-    display: block;
-    padding: 5px 15px;
-    border-radius: 15px;
-    text-decoration: none;
-}
-#navbar-1 ul li a:hover
-{
-    color: black;
-    background-color: white;
-}
+
+
 #form_cust
 {
     background: linear-gradient(rgba(148,210,189,0.5),rgba(148,210,189, 0.5));
@@ -110,10 +55,7 @@
     /* align-items: center; */
     margin: 10px 10px;
 }
-.headline-1
-{
-    padding:0px 0px 0px 10px;
-}
+
 .form1 input
 {
     width: 25px;
@@ -240,9 +182,25 @@
 }
 .billi
 {
-    margin: 20px;
+    display:flex;
+    margin-top: 10vh;
     width: 100%;
-    padding: 12px 0px;
     font-size: 30px;
     background-color: #ee9b00;
+    /* padding:0.5vh 10vw; */
+}
+
+.billi a{
+    padding-top:1vh;
+    padding-left:3vw;
+    padding-right:3vw;
+}
+
+.billi i{
+    color:black;
+    font-size: 5.5vh;
+}
+
+.billi .headline-1{
+    
 }
