@@ -5,7 +5,7 @@ This is a static website we made using html and css. This website is currently u
 <h4>Group Members</h4>
 <ul>
   <li>Devesh Meena</li>
-  <li>Deepakh Meena</li>
+  <li>Deepak Meena</li>
   <li>Ayush Sharma</li>
   <li>Chandra Pareek</li>  
 </ul>
